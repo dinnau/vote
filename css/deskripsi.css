@@ -1,0 +1,79 @@
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menerapkan font yang sama untuk kejelasan baca */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style untuk form elements */
+.id {
+    margin: 10px;
+}
+
+/* Membuat form elements memiliki lebar penuh di perangkat seluler */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+/* Membuat form center-aligned di perangkat seluler */
+form.iden-hero {
+    text-align: center;
+}
+
+/* Style untuk media and visi elements */
+.image-med {
+    margin: 10px;
+}
+
+/* Center-align text within media and visi elements */
+.media {
+    text-align: center;
+}
+
+/* Center-align the button */
+.media-btn {
+    text-align: center;
+}
+
+/* Style untuk tombol */
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Menambahkan padding pada tombol untuk interaksi yang lebih baik di perangkat seluler */
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+}
+
+/* Menambahkan gaya responsif untuk layar kecil */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* Anda dapat menambahkan lebih banyak gaya responsif di sini sesuai kebutuhan */
+}

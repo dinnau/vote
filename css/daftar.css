@@ -1,0 +1,63 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 7px 2px;
+    text-decoration: none;
+    /* font-size: 11px; */
+}
+
+body {
+    background-color: aliceblue;
+    width: 350px;
+    margin: auto;
+}
+
+
+.id-hero {
+    background-color: white;
+    border-radius: 20px;
+    width: 320px;
+}
+
+.med-visi {
+    background-color: white;
+    border-radius: 20px;
+    width: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p1 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

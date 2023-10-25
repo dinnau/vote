@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #007BFF;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+form {
+    width: 90%; /* Mengurangi lebar formulir untuk tampilan seluler */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.candidate-box {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto; /* Memusatkan kotak kandidat */
+    transition: transform 0.3s ease;
+    max-width: 300px; /* Batasi lebar kotak kandidat */
+}
+
+.candidate-box:hover {
+    transform: scale(1.05);
+}
+
+.candidate-box img {
+    width: 100%; /* Biarkan gambar mengisi lebar kotak kandidat */
+    height: auto; /* Sesuaikan tinggi gambar */
+    border-radius: 10%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.candidate-box h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.description {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.nisn {
+    font-size: 16px;
+    color: #777;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.deskripsi {
+    background-color: #007BFF;
+    font-size: 15px;
+    padding: 10px;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.deskripsi a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: #f7f7f7;
+    text-align: center;
+}
